@@ -1,6 +1,8 @@
 import { createStore } from 'vuex'
 import title from './pageTitle'
 import auth from './auth'
+import device from './device'
+import nav from './nav'
 
 export default createStore({
   state: {
@@ -13,6 +15,8 @@ export default createStore({
   },
   modules: {
     title,
-    auth
+    auth,
+    device,
+    nav
   }
 })

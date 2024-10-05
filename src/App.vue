@@ -24,5 +24,5 @@ import axios from 'axios'
 
 
 <style lang="scss">
-
+@import "@/scss/style.scss"
 </style>

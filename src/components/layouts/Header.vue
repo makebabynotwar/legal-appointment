@@ -23,6 +23,13 @@
                     </div>
                 </div> -->
 
+
+                <button @click="toggleNav" class="bar open">
+                    <span class="top"></span>
+                    <span class="middle"></span>
+                    <span class="bottom"></span>
+                </button>
+
             </div>
 
           <div class="clearfix"></div>
@@ -33,8 +40,14 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
 export default {
-    name: 'AppHeader', // Ensure the name matches the multi-word requirement
+    name: 'AppHeader', // Ensure the name matches the multi-word requirement,
+    computed: {
+        ...mapGetters({
+            deviceWidth: 'device/deviceWidth', // Using mapGetters with absolute path
+        }),
+    },
 }
 </script>
 
