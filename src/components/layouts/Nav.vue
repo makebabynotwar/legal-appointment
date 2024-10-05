@@ -3,7 +3,17 @@
     <div id="nav_area">
 
         <nav class="page_nav">
+            <!-- <a href="javascript:;"><figure><img src="@/assets/images/main_logo.png" alt="Smart Legal Appoinment System"></figure></a> -->
+            <div class="menu_slide_right">
+                <a href="javascript:;" class="logo_slide_right"><figure><img src="@/assets/images/main_logo.png" alt="Smart Legal Appoinment System"></figure></a>
+                <button @click="toggleNav" class="bar">
+                    <span class="top"></span>
+                    <span class="middle"></span>
+                    <span class="bottom"></span>
+                </button>
 
+				<div class="clearfix"></div>
+			</div>
             <div class="wrapper">
 
                 <ul>

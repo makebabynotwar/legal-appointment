@@ -24,7 +24,7 @@
                 </div> -->
 
 
-                <button @click="toggleNav" class="bar open">
+                <button @click="toggleNav" class="bar">
                     <span class="top"></span>
                     <span class="middle"></span>
                     <span class="bottom"></span>
