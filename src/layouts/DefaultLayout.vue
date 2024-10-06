@@ -2,7 +2,7 @@
     <div class="body" :class="{active : is_nav_open}">
       <Header />
       <Nav />
-      <main>
+      <main class="main_area">
         <router-view />
       </main>
       <Footer />
