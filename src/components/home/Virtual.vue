@@ -5,6 +5,10 @@
         
         <div class="virtual_area_con">
 
+            <figure class="virtual_img">
+                <img src="@/assets/images/virtual/virtual-img.png" />
+            </figure>
+
             <div class="virtual_info">
                 <h2>Virtual</h2>
                 <p>Receiving legal service has never been this easy. 
@@ -13,10 +17,6 @@
                 </p>
                 <a href="javascript:;" class="g-button">Login</a>
             </div>
-
-            <figure class="virtual_img">
-                <img src="@/assets/images/virtual/virtual-img.png" />
-            </figure>
 
         </div>
 

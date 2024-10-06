@@ -17,6 +17,6 @@ export default createStore({
     title,
     auth,
     device,
-    nav
+    nav,
   }
 })

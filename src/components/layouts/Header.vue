@@ -24,7 +24,7 @@
                 </div> -->
 
 
-                <button @click="toggleNav" class="bar">
+                <button @click="toggleNav" class="bar" :class="{open : is_nav_open}">
                     <span class="top"></span>
                     <span class="middle"></span>
                     <span class="bottom"></span>
@@ -40,14 +40,20 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
+import { mapActions, mapGetters} from 'vuex';
+
 export default {
     name: 'AppHeader', // Ensure the name matches the multi-word requirement,
     computed: {
         ...mapGetters({
-            deviceWidth: 'device/deviceWidth', // Using mapGetters with absolute path
+            is_nav_open: 'nav/is_nav_open', // Using mapGetters with absolute path for navigation state
         }),
     },
+    methods:{
+        ...mapActions({
+            toggleNav: 'nav/toggleNav', // Action to toggle navigation state
+        }),
+    }
 }
 </script>
 

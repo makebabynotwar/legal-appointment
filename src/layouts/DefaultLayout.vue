@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="body" :class="{active : is_nav_open}">
       <Header />
       <Nav />
       <main>
@@ -25,6 +25,7 @@ export default {
     computed: {
         ...mapGetters({
             deviceWidth: 'device/deviceWidth', // Using mapGetters with absolute path
+            is_nav_open: 'nav/is_nav_open',
         }),
     },
     methods: {
