@@ -7,7 +7,7 @@
                 
     
                 <div class="main_logo">
-                    <a href="javascript:;"><figure><img src="@/assets/images/main_logo.png" alt="Smart Legal Appoinment System"></figure></a>
+                    <router-link to="/"><figure><img src="@/assets/images/main_logo.png" alt="Smart Legal Appoinment System"></figure></router-link>
                 </div>
 
                 <!-- <div class="head_info">

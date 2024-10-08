@@ -22,9 +22,7 @@
                                 <input id="remember_me" name="remember_me" v-model="remember_me"  type="checkbox" checked="checked"> 
                                 <label for="remember_me" class="flex_no_align"><i class="icon_check"></i> <span class="checkbox_text">Remember me</span></label>
                             </div>
-                            <a class="link" href="javascript:;">
-                                Forgot password?
-                            </a>
+                            <router-link class="link" to="/forgot-password">Forgot password?</router-link>
                             
                         </div>
                     </div>

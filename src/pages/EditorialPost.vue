@@ -3,7 +3,7 @@
         <div class="editorial_bread">
             <div class="wrapper">
                 <div class="editorial_bread_crumbs">
-                    <a class="editorial" href="javascript:;"></a> <p>Editorials</p>
+                    <router-link class="editorial" to="/editorials"></router-link> <p>Editorials</p>
                 </div>
             </div>
         </div>

@@ -14,8 +14,7 @@
                             <input class="g-input outline" type="text"/>
                         </div>
                     </div>
-                    <a class="g-button sign_in">Sign in</a>
-                    <a href="javascript:;">Back to Login</a>
+                    <a class="g-button sign_in">Reset Password</a>
                 </div>
 
             </div>

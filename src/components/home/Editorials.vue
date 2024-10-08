@@ -7,66 +7,11 @@
 
             <div class="editorial_title">
                 <h2>Editorials</h2>
-                <a href="javascript:;">View all editorials</a>
+                <router-link to="/editorials">View all editorials</router-link>
                 
             </div>
-
-            <dig class="editorial_blogs">
-                <div class="editorial_blog">
-                    <figure class="editorial_img">
-                        <img src="@/assets/images/editorials/ai2.png"/>
-                    </figure>
-                    <div class="editorial_details">
-                        <h3>AI + Law</h3>
-                        <p><span class="date">February 4, 2024</span> <span>FAMILY, MARRIAGE</span></p>
-                    </div>
-                </div>
-                <div class="editorial_blog">
-                    <figure class="editorial_img">
-                        <img src="@/assets/images/editorials/ai2.png"/>
-                    </figure>
-                    <div class="editorial_details">
-                        <h3>AI + Law</h3>
-                        <p><span class="date">February 4, 2024</span> <span>FAMILY, MARRIAGE</span></p>
-                    </div>
-                </div>
-                <div class="editorial_blog">
-                    <figure class="editorial_img">
-                        <img src="@/assets/images/editorials/ai2.png"/>
-                    </figure>
-                    <div class="editorial_details">
-                        <h3>AI + Law</h3>
-                        <p><span class="date">February 4, 2024</span> <span>FAMILY, MARRIAGE</span></p>
-                    </div>
-                </div>
-                <div class="editorial_blog">
-                    <figure class="editorial_img">
-                        <img src="@/assets/images/editorials/ai2.png"/>
-                    </figure>
-                    <div class="editorial_details">
-                        <h3>AI + Law</h3>
-                        <p><span class="date">February 4, 2024</span> <span>FAMILY, MARRIAGE</span></p>
-                    </div>
-                </div>
-                <div class="editorial_blog">
-                    <figure class="editorial_img">
-                        <img src="@/assets/images/editorials/ai2.png"/>
-                    </figure>
-                    <div class="editorial_details">
-                        <h3>AI + Law</h3>
-                        <p><span class="date">February 4, 2024</span> <span>FAMILY, MARRIAGE</span></p>
-                    </div>
-                </div>
-                <div class="editorial_blog">
-                    <figure class="editorial_img">
-                        <img src="@/assets/images/editorials/ai2.png"/>
-                    </figure>
-                    <div class="editorial_details">
-                        <h3>AI + Law</h3>
-                        <p><span class="date">February 4, 2024</span> <span>FAMILY, MARRIAGE</span></p>
-                    </div>
-                </div>
-            </dig>
+            <EditorialList :featured="true" />
+            
 
         </div>
 
@@ -76,7 +21,9 @@
 </template>
 
 <script>
+import EditorialList from '@/components/EditorialList';
 export default {
+    components: { EditorialList },
     name: 'AppEditorials', // Ensure the name matches the multi-word requirement
 }
 </script>

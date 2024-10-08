@@ -42,7 +42,7 @@ const routes = [
       {
         path: '/editorials',
         name: 'editorials',
-        component: ()=>import(`@/pages/EditorialList`),
+        component: ()=>import(`@/pages/EditorialsPage`),
       },
       {
         path: '/editorial/:id',
