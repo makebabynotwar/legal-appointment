@@ -21,7 +21,7 @@
                         <li><router-link to="/practices">PRACTICES</router-link></li>
                         <li><router-link to="/reviews">REVIEWS</router-link></li>
                         <li><router-link to="/pricing">PRICING</router-link></li>
-                        <li><router-link to="/contact-us">CONTACT US</router-link></li>
+                        <li><router-link to="/login">LOGIN</router-link></li>
                     </ul>
     
                 </div>

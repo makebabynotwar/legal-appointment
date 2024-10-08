@@ -15,7 +15,7 @@
                     If you cannot visit our office, we do legal service online. 
                     Call, email, text, whatever your way, we connect.
                 </p>
-                <router-link to="/login" class="g-button">Login</router-link>
+                <router-link to="/contact-us" class="g-button">Contact Us</router-link>
             </div>
 
         </div>
